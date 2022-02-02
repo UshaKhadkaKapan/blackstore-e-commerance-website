@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+	<html lang="en">
+ 		<head>
+ 			<meta charset="UTF-8">
+ 			<title>Products BlackStore
+ 			</title>
+ 			<link rel="stylesheet" href="style.css">
+ 			<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+ 		</head>
+ 		<body>
+ 			<div class="header">
+ 			<div class="container">
+ 			<div class="navbar">
+ 				<div class="logo">
+ 					<img src="Images/logo.PNG" width="125px ">
+ 				</div>
+
+ 				<nav>
+ 					<ul id="MenuItems">
+ 						<li> <a href="">Home</a></li>
+ 						<li> <a href="">Product</a></li>
+ 						<li> <a href="">About</a></li>
+ 						<li> <a href="">Contact</a></li>
+ 						<li> <a href="">Account</a></li>
+
+ 					</ul>
+ 				</nav>
+ 				<img src="Images/29a.PNG" width="30px" height="30px">
+ 				<img src="Images/28a.PNG" class="menu-icon" onclick="menutoggle()">
+
+ 			</div>
+
+ 			<!-- Single Products Details -->
+
+ 			<div class="small-cointainer single-product">
+ 				<div class='row'>
+ 					<div class="col-2">
+ 						<img src="Images/1a.PNG" width="100%" id="ProductImg">
+
+ 						<div class="small-img-row">
+ 							<div class="small-img-col">
+ 								<img src="Images/1a.PNG" width="100%" class="small-img">
+ 							</div>
+ 							<div class="small-img-col">
+ 								<img src="Images/1b.PNG" width="100%" class="small-img">
+ 							</div>
+ 							<div class="small-img-col">
+ 								<img src="Images/1c.PNG" width="100%" class="small-img">
+ 							</div>
+ 							<div class="small-img-col">
+ 								<img src="Images/1d.PNG" width="100%" class="small-img">
+ 							</div>
+ 							
+ 							
+ 						</div>
+ 					</div>
+ 					<div class="col-2">
+ 						<p>Home /  T-shirt and long Skirt</p>
+ 						<h1> Black T-shirt with Long Gray Mixed Skirt</h1>
+ 						<h4>$60.00</h4>
+ 						<select>
+ 							<option>Select Size</option>
+ 							<option>XXL</option>
+ 							<option>XL</option>
+ 							<option>Large</option>
+ 							<option>Medium</option>
+ 							<option>Small</option>
+ 						</select>
+ 						<input type="number" value="1">
+ 						<a href=" " class="btn">Add To Cart</a>
+ 						<h3>Product Details</h3>
+ 						<br>
+ 						<p> Maxi skirts have gone from becoming a hot fashion trend to a total wardrobe staple. Yet how to wear a maxi skirt is still a question I get asked–a lot! Other than pairing your maxi skirt with a plain tank top, how else can you style a maxi skirt</p>
+ 					</div>
+ 				</div>
+ 			</div>
+
+ 			<div class="samll-cointainer">
+ 				<div class="row row-2">
+ 					<h2> Related Products</h2>
+ 					<p> View More</p>
+
+ 				</div>
+ 			</div>
+
+
+
+ 		
+ 			<div class="small-container">
+ 	
+ 				<div class="row">
+ 					<div class="col-4">
+ 						<img src="Images/3a.PNG">
+ 						<h4> Summer Foot Wear</h4>
+
+ 						<p>$50.00</p>
+ 					</div>
+
+ 					<div class="col-4">
+ 						<img src="Images/4a.PNG">
+ 						<h4> Butterfly Foot Wear</h4>
+
+ 						<p>$40.00</p>
+ 					</div>
+ 					
+
+ 					<div class="col-4">
+ 						<img src="Images/7a.PNG">
+ 						<h4> Flat Foot Wear</h4>
+
+ 						<p>$30.00</p>
+ 					</div>
+ 					
+
+ 					<div class="col-4">
+ 						<img src="Images/8a.PNG">
+ 						<h4> Black Foot Wear</h4>
+
+ 						<p>$35.00</p>
+ 					</div>
+ 					
+ 					
+ 				</div>
+ 				
+ 			</div>
+
+ 			
+
+
+ 	
+
+ 			<div class="footer">
+ 				<div class="container">
+ 					<div class="row">
+ 						<div class="footer-col-1">
+ 							<h3>Download Our App</h3>
+ 							<p>Download app for android and for ios phone</p>
+ 							<div class="app-logo">
+ 								<img src="Images/26a.PNG">
+ 								<img src="Images/27a.PNG">
+ 							</div>
+ 							
+
+ 						</div>
+
+ 						<div class="footer-col-2">
+ 							<img src="Images/logo.PNG">
+ 							<p>Our goal is to give sustainable servies to every of our customers.</p>	
+ 						</div>
+
+ 						<div class="footer-col-3">
+ 							<h3>Useful Links</h3>
+ 							<ul>
+ 								<li>Coupons</li>
+ 								<li>Blog Post</li>
+ 								<li>Return Policy</li>
+ 								<li> Join Affiliate</li>
+ 							</ul>	
+ 						</div>
+
+ 						<div class="footer-col-3">
+ 							<h3>Follow Us</h3>
+ 							<ul>
+ 								<li>Facebook</li>
+ 								<li>Twitter</li>
+ 								<li>Instagram</li>
+ 								<li>You Tube</li>
+ 							</ul>	
+ 						</div>
+ 					
+ 					</div>
+ 					<hr>
+ 					<p class="copyright"> Copyright 2022- Assignment</p>
+ 				
+ 				</div>
+ 				
+ 			</div>
+
+ 			<script>
+ 				var MenuItems = document.getElementById("MenuItems");
+ 				MenuItems.style.maxHeight = "0px";
+
+ 				function menutoggle(){
+ 					if(MenuItems.style.maxHeight == "0px")
+ 						{
+ 							MenuItems.style.maxheight = "200px;"
+ 						}
+ 					else
+ 						{
+ 						MenuItems.style.maxHeight = "0px";
+ 						}
+ 				}
+ 			</script>
+
+ 			<script>
+ 				var ProductImg = document.getElementById("ProductImg");
+ 				var SmallImg = document.getElementByClass("small-img");
+
+ 				SmallImg[0].onclick=function()
+ 				{
+ 					ProductImg.src = SmallImg[0].src;
+ 				}
+ 				SmallImg[1].onclick=function()
+ 				{
+ 					ProductImg.src = SmallImg[1].src;
+ 				}
+ 				SmallImg[2].onclick=function()
+ 				{
+ 					ProductImg.src = SmallImg[2].src;
+ 				}
+ 				SmallImg[3].onclick=function()
+ 				{
+ 					ProductImg.src = SmallImg[3].src;
+ 				}
+
+
+ 			</script>
+
+
+
+
+
+ 		</body>
+	</html>
